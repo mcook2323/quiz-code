@@ -13,4 +13,4 @@ This Website's intent is to run a Timed Javascript quiz that logs the score by h
 
 ## Live Link to the Website
 
-[Quiz Code]()
+[Quiz Code](https://mcook2323.github.io/quiz-code/)
