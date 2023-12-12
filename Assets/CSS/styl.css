@@ -1,0 +1,79 @@
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+  background-color: beige;
+}
+
+.quiz, 
+.scores { 
+    margin: 50px auto 0 auto; 
+    max-width: 400px; 
+} 
+
+#top{
+  color: olive;
+} 
+
+
+
+.quiz{
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 580px;
+  width: 50%;
+  padding: 15px;
+  transform: translate(-50%, -50%);
+  max-height: 500px; 
+}
+
+.view-highscore{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.timer{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.landing{
+  text-align: center;
+}
+
+p{
+ margin: 15px 15px;
+}
+
+button { 
+  display: inline-block; 
+  margin: 10px; 
+  cursor: pointer; 
+  color: #fff; 
+  background-color: #52865a; 
+  border-radius: 5px; 
+  border: 0; 
+  padding: 20px; 
+} 
+
+button:hover { 
+  background-color: #0f3d04; 
+} 
+
+input[type="text"] { 
+  font-size: 100%; 
+} 
+
+
+.feedback{
+
+}
+
+
+.hide{
+  display: none;
+}

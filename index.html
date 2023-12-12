@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Code</title>
+  <link rel="stylesheet" href="./Assets/CSS/styl.css">
+  <script defer src="./Assets/JS/script.js"></script>
+</head>
+<body>
+  <header>
+    <section id="head-container" class="head-container">
+      <button id="view-highscore" class="view-highscore">
+        View Highscore
+      </button>
+      <article class="timer">
+       <p> Timer: <span id="timer">0</span></p>
+      </article>
+    </section>
+  </header>
+  <main  class="quiz">
+  <section id="quiz-start"> 
+    <article class="landing" id="start-screen">
+      <h1 id="top">BootCamp Quiz</h1>
+      <h1>Quiz Challenge</h1>
+      <p>Answer the following questions before the time runs out. Each incorrect answer will result in 5  seconds deducted from the total time.</p>
+      <button id="start">Start!</button>
+    </article>
+  </section>
+  <section id="questions" class="hide">
+    <h2 id="question-selection"></h2>
+    <article id="options" class="options"></article>
+  </section>
+  <section id="feedback" class="feedback hide">
+  </section>
+  <section class='hide' id="quiz-end">
+    <h2>All Done!</h2>
+    <p>Your Final Score is: <span id="final-score"></span></p>
+    <p>
+      Please enter your name: 
+      <input type="text" id="name"/><button id="submit-score">Submit</button>
+      <button id="restart-btn">Restart</button>
+    </p>
+  </section>
+  <section class="hide" id="score-results">
+    <ol id="results-load"class="result">
+      Results: 
+    </ol>
+    <button id="try-again">Try Again</button>
+    <button id="clear-all">Clear All</button>
+  </section>
+  </main>
+</body>
+</html>
