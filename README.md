@@ -14,3 +14,8 @@ This Website's intent is to run a Timed Javascript quiz that logs the score by h
 ## Live Link to the Website
 
 [Quiz Code](https://mcook2323.github.io/quiz-code/)
+
+### Code Source
+TA - Samuel Cordova: Assisted with the For loop to display the locacl storage information
+
+Tutor - Dennis Itua: Assisted during Tutor session to refine the code throughout the Script.js 
